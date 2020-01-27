@@ -1,0 +1,142 @@
+.header {
+    .slide {
+        min-height: 730px;    
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right center;
+        &-one {
+            background-image: url(../../img/head_bg1.jpg);
+        }
+        &-two {
+            background-image: url(../../img/head_bg2.jpg);
+        }
+        &-three {
+            background-image: url(../../img/head_bg3.jpg);
+        }
+        @media screen and (max-width:1200px) {
+            &-one {
+                background-image: url(../../img/11.jpg);
+            }
+            &-two {
+                background-image: url(../../img/22.jpg);
+            }
+            &-three {
+                background-image: url(../../img/33.jpg);
+            }
+        }
+        @media screen and (max-width:768px) {
+            &-one {
+                background-image: url(../../img/1.JPG);
+                background-position: center !important;
+            }
+            &-two {
+                background-image: url(../../img/2.JPG);
+                background-position: center !important;
+            }
+            &-three {
+                background-position: center !important;
+                background-image: url(../../img/3.jpg);
+
+            }
+        }
+        .top-curly-line{
+            top: 250px;
+            transition: translateX(20%);
+            transition-duration: 100ms;
+            .smallLine {
+                position: absolute;
+                height: 15px;
+                width: 200%;
+                transform: translate(-25%) scale(0.5)
+            }
+            .smallLine1 {
+                background: linear-gradient(45deg, transparent, transparent 48%, white 48%, transparent 52%);
+            }
+            .smallLine2 {
+                background: linear-gradient(-45deg, transparent, transparent 48%, white 48%, transparent 52%);
+            }
+            .smallLine {
+                background-size: 30px 30px;
+            }
+        }
+        .bottom-curly-line{
+            .smallLine {
+                position: absolute;
+                height: 15px;
+                width: 200%;
+                transform: translate(-25%) scale(0.5)
+            }
+            .smallLine1 {
+                background: linear-gradient(45deg, transparent, transparent 48%, white 48%, transparent 52%);
+            }
+            .smallLine2 {
+                background: linear-gradient(-45deg, transparent, transparent 48%, white 48%, transparent 52%);
+            }
+            .smallLine {
+                background-size: 30px 30px;
+            }
+        }
+        .header-title {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            padding-top: 290px ;
+            padding-bottom: 30px;
+            color: #ffffff;
+            font-family: "Amsdam";
+        }
+        .header-button {
+            background: none;
+            position: relative;
+            border: 2px solid white;
+            font-size: 15px;
+            padding: 20px;
+            letter-spacing: 2px;
+            line-height: 15px;
+            color: #ffffff;
+            font-family: "Montserrat";
+            font-weight: 400;
+            margin-top: 55px;
+            .arrow-circle {
+                position: absolute;
+                border: 2px solid white;
+                border-radius: 50%;
+                width: 16px;
+                height: 16px;
+                margin-top: 13px;
+                left: 50%;
+                margin-left: -8px;
+            }
+            .arrow-line {
+                position: absolute;
+                height: 35px;
+                left: 50%;
+                margin-top: 28px;
+                border: 1px solid white;
+                margin-left: -1px;
+                
+            }
+            .arrow-arrow {
+                position: absolute;
+                font-size: 30px;
+                left: 50%;
+                margin-top: 50px;
+                margin-left: -9px;               
+            }           
+        } 
+    } 
+    .slick-dots {
+        bottom: 15px;
+        li{
+           margin: 12px; 
+        }
+        li button:before {
+            font-size: 18px;
+            color: white;
+        }
+@media screen and (max-width: 800px) {
+    display: none !important;
+}
+    }
+}
+

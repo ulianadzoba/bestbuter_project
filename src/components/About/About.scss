@@ -1,0 +1,91 @@
+.about {
+    background-color: rgb(227, 227, 227);
+    padding-top: 60px;
+    .about-part-one {
+        background-color: white;
+        .about-one-image {
+            padding: 0;
+            img {
+                width: 100%;
+            }
+        }
+        .holder {
+            padding-top: 25px;
+            padding-bottom: 35px;
+        }
+        .about-buttons {
+            padding-bottom: 35px;
+            padding-right: 2px;
+            padding-left: 2px;
+            .about-button {
+                font-size: 14px;
+                letter-spacing: 1px;
+                line-height: 44px;
+                color: #3e3d3d;
+                border: 2px solid #3e3d3d;
+                background-color: white;
+                font-family: "Montserrat";
+                font-weight: 400;
+                width: 100%;  
+                &:hover {
+                    color: white;
+                    border: 2px solid #3e3d3d;
+                    background-color: rgb(15, 51, 9);
+                }
+            }           
+        }
+        .custom-gutter > [class*='left-pd'] {
+            padding-right: 2px; 
+        }
+        .custom-gutter > [class*='right-pd'] {
+            padding-left: 2px; 
+        }
+    }
+    .about-part-two {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        .about-item {
+            color: #3e3d3d;
+            text-transform: uppercase;        
+            .about-achivement-icon i {
+                font-size: 30px;
+                padding-bottom: 25px;
+                &:hover {
+                    color: rgb(15, 51, 9);;
+                }
+            }
+            .about-achivement-title {
+                font-size: 18px;
+                letter-spacing: 1px;
+                line-height: 18px;
+                color: #3e3d3d;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+            }
+            .about-achivement-number {
+                font-size: 38px;
+                line-height: 84px;
+                color: #3e3d3d;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 800;
+            }
+        }
+        .about-border {
+            border-left: 1px solid  #3e3d3d;
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .about-part-two {
+        .row-one {
+            border-bottom: 1px solid  #3e3d3d;;
+        }
+        .row-two {
+            padding-top: 25px;
+        }
+        .without-border {
+            border-left: none !important;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.map{
+    .leaflet-container {
+         height: 400px;
+         width: 100%;
+         z-index: 5;
+     }
+     .leaflet-tile-pane {
+         filter: grayscale(100%);
+     }
+     .leaflet-popup {
+         font-size: 18px;
+         cursor: pointer;
+         width: 220px;
+         text-align: center;
+         bottom: 75px !important;
+         left: -70px !important;
+         .leaflet-popup-pane {
+             z-index: 6;
+         }  
+         .leaflet-popup-content {
+         color: white; 
+         padding: 5px;
+         margin: 10px;
+         }
+         .leaflet-popup-content-wrapper {
+             background-color: rgb(15, 51, 9); 
+         }
+         .leaflet-popup-tip {
+             background-color: rgb(15, 51, 9); 
+         }
+     } 
+ }

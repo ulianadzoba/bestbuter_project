@@ -1,0 +1,76 @@
+.gallery {
+    .holder {
+        padding-top: 25px;
+        padding-bottom: 35px;
+    }
+    .gallery-container{
+        cursor: pointer;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        .column {
+            flex: 25%;
+            max-width: 25%;
+            .img-wrap {
+                position: relative;
+                .img-hover {
+                    position: absolute;
+                    padding: 10px;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    z-index: 3;
+                    background-color: rgba($color: white, $alpha: 0.2);
+                    display: none;
+                    .img-text {
+                        padding: 20px;
+                        background-color: rgba($color: white, $alpha: 0.6);
+                        height: 100%;
+                        .buter-name {
+                            color: #3e3d3d;
+                            font-family: "Montserrat";
+                            text-transform: uppercase;
+                            font-size: 18px;
+                            font-weight: 800;
+                        }
+                        .ingredients-title {
+                            padding-top: 15px;
+                            font-size: 15px;
+                            font-weight: 700;
+                            color: #3e3d3d;
+                            padding-bottom: 5px;
+                        }
+                        .ingredients {
+                            font-size: 17;
+                        }
+                    }
+                    
+                }
+                .show {
+                       display: block !important; 
+                    }
+                &:hover .img-hover {
+                    
+                    display: block;
+                }
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+      flex: 50% !important;
+      max-width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+      flex: 100% !important;
+      max-width: 100% !important;
+    }
+}

@@ -1,0 +1,192 @@
+.history {
+    background-color: #ededed;
+    padding-bottom: 40px;
+    .holder {
+        padding-top: 25px;
+        padding-bottom: 35px;
+    }
+    
+    .history-design {
+        position: relative; 
+        .history-container {
+            margin-top: 20px;
+            margin-bottom: 20px;  
+        }
+        .line {
+            border-left: 2px solid #3e3d3d;
+            position: absolute;
+            height: 100%;
+            left: 50%;
+            margin-left: -1px;
+            box-sizing: border-box;
+        }
+        .year {
+            border-radius: 50%;
+            width: 73px;
+            height: 73px;
+            border: 2px solid rgb(15, 51, 9);
+            background-color: rgb(15, 51, 9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #e4e4e4;
+            font-family: "Montserrat";
+            font-weight: 400;
+            z-index: 5;
+        }
+        .light-container {
+            .light {
+                border-radius: 50%;
+                width: 54px;
+                height: 54px;
+                border-radius: 27px;
+                background-color: rgb(15, 51, 9);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #e4e4e4;
+                font-size: 28px;
+                z-index: 5;
+            }
+        }       
+        .event {
+            border: 2px solid #3e3d3d;
+            position: relative;
+            padding: 20px;
+            color: #3e3d3d;
+            font-family: "Montserrat";
+            font-weight: 400;
+            .event-title {
+                font-size: 14px;
+                letter-spacing: 1px;
+                line-height: 18px;   
+                font-weight: 600;  
+            }
+            .event-date {
+                font-weight: 800;  
+                font-size: 12px;
+                line-height: 18px;
+                padding-bottom: 20px;
+                padding-top: 5px;
+            }
+            .event-description {
+                font-size: 14px;
+                letter-spacing: 1px;
+                line-height: 20px;
+            }
+            &:after{
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                background-color: #ededed;
+                content: '';
+                top: 10%;
+                
+            }   
+            &:hover {
+                color: #ededed;
+                background-color: rgb(15, 51, 9);
+                border: 2px solid rgb(15, 51, 9);
+            }
+            &:hover:after {
+                background-color: rgb(15, 51, 9);
+                border-top: 2px solid rgb(15, 51, 9);
+                border-left: 2.5px solid rgb(15, 51, 9);
+                border-right: 2.5px solid rgb(15, 51, 9);
+            }
+        }
+    }
+}
+
+
+.event-circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3e3d3d;;
+    position: absolute;
+    z-index: 5;
+}
+.item-left { 
+    .event {
+        margin-right: 50px;
+        &:after {
+            border-top: 2px solid #3e3d3d;
+            border-right: 2.5px solid #3e3d3d;
+            transform: skewX(-45deg);
+            margin-left: -5.5px;
+            left: 100%;
+        }
+    }
+    .event-circle {
+        right: 0%;
+        top: 8%;
+        margin-right: -9px;
+    }
+    
+}
+
+.item-right {
+    margin-top: 50px;
+    .event {
+        margin-left: 50px;
+        &:after {
+            border-top: 2px solid #3e3d3d;
+            border-left: 2.5px solid #3e3d3d;
+            transform: skewX(45deg);
+            margin-right: -5.5px;
+            right: 100%;
+        }
+    }
+    .event-circle {
+        left: 0%;
+        top: 8%;
+        margin-left: -9px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .history {
+        .line-sm {
+            display: none;
+        }
+        .history-container {
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+        .year-icon {
+            padding-top: 40px;
+        }
+      
+        .item-left {
+            margin-top: 50px;
+            .event {
+                margin-left: 50px;
+                margin-right: 0;
+                &:after {
+                    border-top: 2px solid #3e3d3d;
+                    border-left: 2.5px solid #3e3d3d;
+                    border-right: none;
+                    transform: skewX(45deg);
+                    margin-left: -9.5px;
+                    left: 0;
+                    right: 100%;
+                }
+            }
+            .event-circle {
+                left: 3%;
+                top: 8%;
+                margin-left: -9px;
+            }
+        }
+        .item-right {
+            .event-circle {
+                left: 3%;
+                top: 8%;
+            }
+        }
+        .light-container {
+            padding-top: 40px;
+        }      
+    }
+}

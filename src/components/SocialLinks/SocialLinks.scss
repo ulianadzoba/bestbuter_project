@@ -1,0 +1,35 @@
+.menu-social-links {
+    cursor: pointer;
+    padding-left: 75px;
+    display: flex;
+    justify-content: space-between;
+    .social-link {
+        font-size: 24px;
+        color: white;
+        &:hover {
+            color: silver;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .menu-social-links {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menu-social-links {
+        justify-content: flex-end;
+        padding-left: 15px;
+        .social-link {
+            padding-left: 10px;
+        }
+    }
+}
+
+// @media screen and (max-width: 500px) {
+//     .menu-social-links {
+//         display: none;
+//     }
+// }

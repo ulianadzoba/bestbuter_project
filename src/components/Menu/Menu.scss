@@ -1,0 +1,22 @@
+.menu {
+    background-color: rgba(15, 51, 9, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 99;   
+    .menu-row {
+        min-height: 90px;  
+        padding-top: 25px;
+    }
+    @supports (align-items: center) {
+        .menu-row {
+            align-items: center;
+            padding-top: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menu-row {
+        padding: 15px !important;
+    }
+}
