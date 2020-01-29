@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bestbuter_project/static/css/main.8f72b265.chunk.css",
-    "main.js": "/bestbuter_project/static/js/main.1c0163c2.chunk.js",
-    "main.js.map": "/bestbuter_project/static/js/main.1c0163c2.chunk.js.map",
+    "main.css": "/bestbuter_project/static/css/main.7ef96a8b.chunk.css",
+    "main.js": "/bestbuter_project/static/js/main.dd789858.chunk.js",
+    "main.js.map": "/bestbuter_project/static/js/main.dd789858.chunk.js.map",
     "runtime-main.js": "/bestbuter_project/static/js/runtime-main.9924153c.js",
     "runtime-main.js.map": "/bestbuter_project/static/js/runtime-main.9924153c.js.map",
     "static/css/2.ead3faf1.chunk.css": "/bestbuter_project/static/css/2.ead3faf1.chunk.css",
-    "static/js/2.29522f4c.chunk.js": "/bestbuter_project/static/js/2.29522f4c.chunk.js",
-    "static/js/2.29522f4c.chunk.js.map": "/bestbuter_project/static/js/2.29522f4c.chunk.js.map",
+    "static/js/2.cdf741e5.chunk.js": "/bestbuter_project/static/js/2.cdf741e5.chunk.js",
+    "static/js/2.cdf741e5.chunk.js.map": "/bestbuter_project/static/js/2.cdf741e5.chunk.js.map",
     "index.html": "/bestbuter_project/index.html",
-    "precache-manifest.ec130ad62f771b2827cbb7f16bb5fc80.js": "/bestbuter_project/precache-manifest.ec130ad62f771b2827cbb7f16bb5fc80.js",
+    "precache-manifest.64fd9dfcd9ffc99e8e2a96a7da0999c7.js": "/bestbuter_project/precache-manifest.64fd9dfcd9ffc99e8e2a96a7da0999c7.js",
     "service-worker.js": "/bestbuter_project/service-worker.js",
     "static/css/2.ead3faf1.chunk.css.map": "/bestbuter_project/static/css/2.ead3faf1.chunk.css.map",
-    "static/css/main.8f72b265.chunk.css.map": "/bestbuter_project/static/css/main.8f72b265.chunk.css.map",
-    "static/js/2.29522f4c.chunk.js.LICENSE": "/bestbuter_project/static/js/2.29522f4c.chunk.js.LICENSE",
+    "static/css/main.7ef96a8b.chunk.css.map": "/bestbuter_project/static/css/main.7ef96a8b.chunk.css.map",
+    "static/js/2.cdf741e5.chunk.js.LICENSE": "/bestbuter_project/static/js/2.cdf741e5.chunk.js.LICENSE",
     "static/media/Header.scss": "/bestbuter_project/static/media/head_bg3.977c6455.jpg",
     "static/media/App.scss": "/bestbuter_project/static/media/Amsdam-Regular.9ffece67.ttf",
     "static/media/Chef.jpg": "/bestbuter_project/static/media/Chef.5f575071.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.9924153c.js",
     "static/css/2.ead3faf1.chunk.css",
-    "static/js/2.29522f4c.chunk.js",
-    "static/css/main.8f72b265.chunk.css",
-    "static/js/main.1c0163c2.chunk.js"
+    "static/js/2.cdf741e5.chunk.js",
+    "static/css/main.7ef96a8b.chunk.css",
+    "static/js/main.dd789858.chunk.js"
   ]
 }

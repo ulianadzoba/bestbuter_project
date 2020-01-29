@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b6eb5c6a7144ec3242c5e1189e8c74e",
+    "revision": "303ce16bac090f5c5e61bb69b28cab92",
     "url": "/bestbuter_project/index.html"
   },
   {
-    "revision": "cddf5938d9be79b67c6c",
+    "revision": "7701cf8a3d893f486fe5",
     "url": "/bestbuter_project/static/css/2.ead3faf1.chunk.css"
   },
   {
-    "revision": "1cb8a6d65806ed8fa4ea",
-    "url": "/bestbuter_project/static/css/main.8f72b265.chunk.css"
+    "revision": "6974b921c84979783aee",
+    "url": "/bestbuter_project/static/css/main.7ef96a8b.chunk.css"
   },
   {
-    "revision": "cddf5938d9be79b67c6c",
-    "url": "/bestbuter_project/static/js/2.29522f4c.chunk.js"
+    "revision": "7701cf8a3d893f486fe5",
+    "url": "/bestbuter_project/static/js/2.cdf741e5.chunk.js"
   },
   {
     "revision": "77ccaffd16cd0eb4657e5506cc1cbbf7",
-    "url": "/bestbuter_project/static/js/2.29522f4c.chunk.js.LICENSE"
+    "url": "/bestbuter_project/static/js/2.cdf741e5.chunk.js.LICENSE"
   },
   {
-    "revision": "1cb8a6d65806ed8fa4ea",
-    "url": "/bestbuter_project/static/js/main.1c0163c2.chunk.js"
+    "revision": "6974b921c84979783aee",
+    "url": "/bestbuter_project/static/js/main.dd789858.chunk.js"
   },
   {
     "revision": "b3cf19adc29c3350586d",
