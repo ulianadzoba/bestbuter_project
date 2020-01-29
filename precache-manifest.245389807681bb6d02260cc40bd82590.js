@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "303ce16bac090f5c5e61bb69b28cab92",
+    "revision": "641a1c1c7637f00d11332e12aff32386",
     "url": "/bestbuter_project/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bestbuter_project/static/css/2.ead3faf1.chunk.css"
   },
   {
-    "revision": "6974b921c84979783aee",
+    "revision": "2564820a51e3b5b28fae",
     "url": "/bestbuter_project/static/css/main.7ef96a8b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bestbuter_project/static/js/2.cdf741e5.chunk.js.LICENSE"
   },
   {
-    "revision": "6974b921c84979783aee",
-    "url": "/bestbuter_project/static/js/main.dd789858.chunk.js"
+    "revision": "2564820a51e3b5b28fae",
+    "url": "/bestbuter_project/static/js/main.2847b8d5.chunk.js"
   },
   {
     "revision": "b3cf19adc29c3350586d",
