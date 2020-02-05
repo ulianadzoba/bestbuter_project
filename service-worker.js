@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bestbuter_project/precache-manifest.9c25a0e2bdd991bfd09dbe5c87a0e8c3.js"
+  "/bestbuter_project/precache-manifest.c5d107b8b2efbbc2afc554961428d8da.js"
 );
 
 self.addEventListener('message', (event) => {
