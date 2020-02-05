@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
-import ClientContext from '../ClientContext/ClientContext';
 
 class PriceItem extends Component {
     constructor(props) {
@@ -31,12 +30,7 @@ class PriceItem extends Component {
 
                     <div className="button-buy">
                         <Link activeClass="active" to="footer" spy={true} smooth={true} duration={700}>
-                            <ClientContext.Consumer>
-                                {(context) => (
-                                    <button onClick={() => context.changeText(`${this.props.info.title}`)}>Buy now</button>
-                                )}
-
-                            </ClientContext.Consumer>
+                            <button>Buy now</button>
                         </Link>
                     </div>
                 </div>

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Logo from '../Logo/Logo';
 import SocialLinks from '../SocialLinks/SocialLinks';
 import './Footer.scss';
-import ClientContext from '../ClientContext/ClientContext';
 
 const checkEmail = RegExp(`^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$`);
 
@@ -148,15 +147,10 @@ class Footer extends Component {
                                 </div>
                                 <div className="row message ">
                                     <div className="col-xl-12 col-lg-12 col-md-12 ">
-                                        {/* <ClientContext.Consumer>
-                                                {(context) => ( */}
                                         <input className="input"
                                             type="text"
                                             placeholder="Message*"
                                             onChange={this.handleChange} />
-                                        {/* )} */}
-
-                                        {/* </ClientContext.Consumer> */}
                                     </div>
                                 </div>
                                 <div className="row footer-button">

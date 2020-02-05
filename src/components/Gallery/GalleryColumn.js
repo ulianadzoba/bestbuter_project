@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import GalleryItem from './GalleryItem';
 
 class GalleryColumn extends Component {
-    state = {}
     render() {
         return (
             <div className="column">
